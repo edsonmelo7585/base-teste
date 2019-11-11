@@ -1,0 +1,51 @@
+http://localhost:8000/api/imoveisbairro/Centro/bairro
+http://localhost:8000/api/imoveisbairro/Centro/municipio
+http://localhost:8000/api/imoveismunicipio/Rio Crespo/bairro
+http://localhost:8000/api/imoveismunicipio/Rio Crespo/municipio
+
+inserir proprietario:
+POST
+http://localhost:8000/api/proprietarios
+{"nome":"teste"}
+
+
+criar Imovel
+POST
+
+http://localhost:8000/api/imoveis
+
+{
+"descricao":"teste postman",
+"owner_id":1,
+"immobiles_type_id":1,
+"immobiles_addresses":{
+"logradouro":"teste teste",
+"numero":1,
+"bairro":"teste",
+"cep":"20050091",
+"city_id":5570, 
+"state_id": 10
+}
+}
+
+
+altera imovel
+http://localhost:8000/api/imoveis/2
+
+PUT
+
+{
+"descricao":"teste postman",
+"owner_id":1,
+"immobiles_type_id":1,
+"id":2,	
+"immobiles_addresses": {
+"id":1,	
+"logradouro":"teste teste",
+"numero":1,
+"bairro":"teste",
+"cep":"20050091", 
+"city_id":17,
+"state_id":19}
+}
+

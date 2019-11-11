@@ -26,3 +26,18 @@ Para isso, utilize o banco de dados MySQL e crie um **CRUD** utilizando api **RE
 Faça um **FORK** deste projeto e quando terminar faça um **PULL REQUEST** para avaliarmos seu teste.
 
 Boa sorte!
+
+
+Descrição:
+
+Criar database imobiliaria_base;
+usuario do Mysql
+user = user
+senha = user
+
+aplicar os scripts da pasta scripts depois de executar os "migrations";
+cities.txt, states.txt
+
+no arquivo teste_edson/scripts/http.txt tem os comandos http para incluir proprietarios, imóveis e imoveis_endereços.
+
+
